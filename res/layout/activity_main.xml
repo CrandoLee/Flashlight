@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:id="@+id/layout1"
+    android:background="#000000" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="80"
+        android:background="#000000" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:checked="false"
+        android:textOff="开灯"
+        android:textOn="关灯" />
+
+</LinearLayout>
